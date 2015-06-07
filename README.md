@@ -1,5 +1,5 @@
-# microscope-mobile-blank
-ionic browserify / npm workflow blank template
+# microscope-mobile-tabs
+ionic browserify / npm workflow tabs template
 
 Requirements
 ------------
