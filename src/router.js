@@ -8,9 +8,9 @@ function Router($stateProvider, $urlRouterProvider) {
   $stateProvider
 
     .state('tab', {
-      url: "/tab",
+      url: '/tab',
       abstract: true,
-      templateUrl: "components/tabs/tabs.html"
+      templateUrl: 'components/tabs/tabs.html'
     })
 
     .state('tab.home', {
@@ -33,7 +33,7 @@ function Router($stateProvider, $urlRouterProvider) {
       }
     });
 
-  $urlRouterProvider.otherwise("/tab/home");
+  $urlRouterProvider.otherwise('/tab/home');
 }
 
 module.exports = Router;
