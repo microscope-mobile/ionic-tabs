@@ -1,4 +1,4 @@
-# microscope-mobile-tabs
+# ionic-tabs
 ionic browserify / npm workflow tabs template
 
 Requirements
